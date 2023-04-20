@@ -1,2 +1,6 @@
-# Wikipedia-Clone
-A Wikipedia website inspiration using React.js, Express, MongoDB, Mongoose
+# Wikipedia Clone
+A Wikipedia website inspiration with:  React.js, Express, MongoDB, Mongoose
+
+
+Disclaimer:
+For Educational Purposes Only
