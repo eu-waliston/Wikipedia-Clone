@@ -1,0 +1,42 @@
+.home__page {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.home__itens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+
+  position: relative;
+  top: 15%;
+
+}
+
+.home__itens .W {
+  width: 450px;
+}
+
+.home__itens h1 {
+  font-size: 7rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  position: relative;
+  color: rgb(49, 49, 49);
+  
+}
+
+.home__itens p {
+  text-transform: capitalize;
+  position: relative;
+  top: 30px;
+  margin-bottom: 20px;
+}
+
+.blue__link {
+  color: blue;
+}
