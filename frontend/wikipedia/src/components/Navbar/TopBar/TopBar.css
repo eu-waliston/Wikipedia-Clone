@@ -14,7 +14,7 @@
 }
 
 .talk__cont {
-    margin-right: 5%;
+    margin-right: 1%;
     position: relative;
 }
 
@@ -28,7 +28,6 @@
     transition: .5s;
     color: rgb(41, 40, 40);
 }
-
 
 .login__register a {
     text-decoration: none;
