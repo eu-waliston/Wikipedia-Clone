@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors')
 require('dotenv').config();
 
+const rootRouter = require('./src/routes/root');
+
 const Server = express();
 
 //middlewares
@@ -10,10 +12,10 @@ Server.use(express.urlencoded({ extended: true }));
 Server.use(cors());
 
 //DB Connection
-
+require('./src/config/database');
 
 //Routes
-
+Server.use('/', rootRouter);
 
 //Listen
 Server.listen(process.env.PORT, () => {
