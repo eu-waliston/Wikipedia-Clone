@@ -10,4 +10,4 @@ For Educational Purposes Only
 By: We Santos
 
 
-App (only frontend) => https://wikipedia-clone-eosin.vercel.app/
+App (only frontend)  https://wikipedia-clone-eosin.vercel.app/
