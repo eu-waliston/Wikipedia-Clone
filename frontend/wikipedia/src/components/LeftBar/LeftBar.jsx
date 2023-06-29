@@ -1,6 +1,8 @@
 import React from "react";
 import "./LeftBar.css";
 
+import { AiOutlineMenuUnfold, AiOutlineMenuFold } from "react-icons/ai";
+
 const LeftBar = () => {
   const [nav, setNavbar] = React.useState(true);
 
@@ -10,7 +12,12 @@ const LeftBar = () => {
 
   return (
     <>
-      <i class="fa-solid fa-bars-staggered" onClick={toggleMenu}></i>
+    
+      {nav ? (
+        <AiOutlineMenuUnfold onClick={toggleMenu} className="toggle__btn" />
+      ) : (
+        <AiOutlineMenuFold onClick={toggleMenu} className="toggle__btn" />
+      )}
 
       <div className={nav ? "left__bar_toggle" : "left__bar"}>
         <div className={nav ? "logo__section_toggle" : "logo__section"}>
