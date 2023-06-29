@@ -1,16 +1,9 @@
 import React from "react";
 import "./Home.css";
 
-import LeftBar from "../../components/Navbar/LeftBar/LeftBar";
-import TopBar from "../../components/Navbar/TopBar/TopBar";
-
-
 const Home = () => {
     return (
         <div className="home__page">
-            <LeftBar />
-            <TopBar />
-
             <div className="home__itens">
                 <img className="W" src={require("./Wikipedia_affiliative_mark.png")} alt="wiki" />
                 <h1>wikipedia</h1>

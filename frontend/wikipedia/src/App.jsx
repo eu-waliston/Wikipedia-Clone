@@ -1,11 +1,17 @@
 import React from "react";
-import Home from "./Pages/Home/Home";
+
+import Rotas from "./routes/Routes";
+import LeftBar from "./components/LeftBar/LeftBar";
+import TopBar from "./components/TopBar/TopBar";
 
 
 const App = () => {
   return (
     <>
-      <Home />    
+        <LeftBar />
+      <TopBar />
+  
+      <Rotas />    
     </>
   )
 }
