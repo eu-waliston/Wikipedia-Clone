@@ -1,12 +1,13 @@
 import React from "react";
 import "./Home.css";
-/**
- * ---- TODO 3 Paginas
- * Login
- * Register
- * Recover
- */
 
+/*
+  //TODO 3 Pages
+  
+  -> Login
+  -> Register 
+  -> Recover
+*/
 const Home = () => {
   return (
     <div className="home__page">
