@@ -7,7 +7,29 @@ A Wikipedia website inspiration using:  React.js, Express, MongoDB, Mongoose
 Disclaimer:
 For Educational Purposes Only
 
-By: We Santos
+## Algumas das tecnologias utilizasdas:
 
+### Frontend:  
+    - ReactJS
+    - Scss
+    - React Router Dom
+    - React Icons 
+    - Css
+    - Styled Componets
+    - Font Aweasome
+### Backend 
+    - NodeJS
+    - Express
+    - Passport 
+    - Helment 
+    - MongoDB
+    - Mongoose
 
-App (only frontend)  https://wikipedia-clone-eosin.vercel.app/
+### Hospegadem
+    - Vercel
+
+### LINKS:
+
+FRONT (somente o front da aplicação que fora hospedato utilizando o Vercel)
+
+https://wikipedia-clone-eosin.vercel.app/
