@@ -1,13 +1,6 @@
 import React from "react";
 import "./Home.scss";
 
-/*
-  //TODO Tomorrow these 3 Pages : 
-  
-  -> Login
-  -> Register 
-  -> Recover
-*/
 const Home = () => {
   return (
     <div className="home__page">

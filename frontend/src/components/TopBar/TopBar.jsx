@@ -1,7 +1,7 @@
 import React from "react";
 import "./TopBar.scss";
 
-// import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
 
 const TopBar = () => {
@@ -22,7 +22,9 @@ const TopBar = () => {
         </div>
 
         <div>
-          <FaUser className="user" />
+          <Link to={"/login"}>
+            <FaUser className="user" />
+          </Link>
         </div>
       </div>
     </div>
