@@ -4,16 +4,14 @@ import Rotas from "./routes/Routes";
 import LeftBar from "./components/LeftBar/LeftBar";
 import TopBar from "./components/TopBar/TopBar";
 
-
 const App = () => {
   return (
     <>
-        <LeftBar />
+      <LeftBar />
       <TopBar />
-  
-      <Rotas />    
+      <Rotas />
     </>
-  )
-}
+  );
+};
 
 export default App;

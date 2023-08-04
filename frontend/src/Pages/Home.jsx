@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./Home.scss";
 
 /*
   //TODO Tomorrow these 3 Pages : 

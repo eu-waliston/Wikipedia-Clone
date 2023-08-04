@@ -1,0 +1,64 @@
+@import "../utilities/Variables.scss";
+
+.home__page {
+  width: 100%;
+  height: 100vh;
+  background-color: $background-default-color;
+
+  .home__itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 15%;
+
+    .W {
+      width: 450px;
+    }
+
+    h1 {
+      font-size: 7rem;
+      text-transform: capitalize;
+      letter-spacing: 3px;
+      position: relative;
+      color: #313131;
+    }
+
+    p {
+      text-transform: capitalize;
+      position: relative;
+      top: 30px;
+      margin-bottom: 20px;
+
+      .blue__link {
+        color: blue;
+      }
+    }
+
+    .bnt_articles {
+      position: relative;
+      margin-top: 120px;
+      width: 200px;
+      height: 60px;
+      text-transform: uppercase;
+      border: none;
+      background-color: $btn-default-color;
+      color: #fff;
+      border-radius: 10px;
+      transition: 0.5s;
+      cursor: pointer;
+      box-shadow: $shadown-default-dark;
+
+      &:hover {
+        opacity: 0.8;
+        transform: translateY(5px);
+        color: #000;
+        box-shadow: $shadown-default-dark;
+        border: 0.5px solid #0000001c;
+      }
+    }
+  }
+}

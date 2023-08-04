@@ -1,0 +1,48 @@
+@import "../../utilities/Variables.scss";
+
+.top__bar {
+  z-index: 4;
+  background-color: $background-default-color2;
+  width: 100%;
+  height: 110px;
+  position: fixed;
+
+  .topbar__itens {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 25%;
+    right: 40px;
+
+    .search__component {
+      input {
+        height: 50px;
+        width: 500px;
+        border: none;
+        border-radius: 10px;
+        text-indent: 20px;
+      }
+    }
+
+    .talk__cont {
+      a {
+        margin-left: 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+      }
+    }
+
+    .user {
+      font-size: 1.7rem;
+      cursor: pointer;
+      margin-left: 30px;
+      &:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+      }
+    }
+  }
+}

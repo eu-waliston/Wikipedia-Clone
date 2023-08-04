@@ -1,5 +1,6 @@
 import React from "react";
-import "./TopBar.css";
+import "./TopBar.scss";
+
 // import {Link} from "react-router-dom"
 import { FaUser } from "react-icons/fa";
 

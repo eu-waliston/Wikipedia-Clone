@@ -1,7 +1,8 @@
 import React from "react";
-import "./LeftBar.css";
+import "./LeftBar.scss";
 
-import { AiOutlineMenuUnfold, AiOutlineMenuFold } from "react-icons/ai";
+import { FaBars } from "react-icons/fa";
+import { GrClose } from "react-icons/gr"
 
 const LeftBar = () => {
   const [nav, setNavbar] = React.useState(true);
@@ -11,12 +12,11 @@ const LeftBar = () => {
   };
 
   return (
-    <>
-    
+    <div className="nav__menu__master">
       {nav ? (
-        <AiOutlineMenuUnfold onClick={toggleMenu} className="toggle__btn" />
+        <FaBars onClick={toggleMenu} className="toggle__btn" />
       ) : (
-        <AiOutlineMenuFold onClick={toggleMenu} className="toggle__btn" />
+        <GrClose onClick={toggleMenu} className="toggle__btn" />
       )}
 
       <div className={nav ? "left__bar_toggle" : "left__bar"}>
@@ -72,7 +72,7 @@ const LeftBar = () => {
           <a href="/">wikipedia commons</a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
