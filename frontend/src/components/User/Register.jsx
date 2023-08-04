@@ -2,7 +2,6 @@ import React from "react";
 import "./User.scss";
 
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
 
 const Register = () => {
   const {
