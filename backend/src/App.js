@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors')
 require('dotenv').config();
 
-const rootRouter = require('./src/routes/root');
+const rootRouter = require('./routes/root');
 
 const Server = express();
 
@@ -12,7 +12,7 @@ Server.use(express.urlencoded({ extended: true }));
 Server.use(cors());
 
 //DB Connection
-require('./src/config/database');
+require('./config/database');
 
 //Routes
 Server.use('/', rootRouter);

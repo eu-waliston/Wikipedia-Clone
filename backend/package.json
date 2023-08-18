@@ -4,7 +4,7 @@
   "description": "Wikipedia Clone Backend",
   "main": "App.js",
   "scripts": {
-    "start" : "nodemon App.js"
+    "start" : "nodemon src/App.js"
   },
   "keywords": [],
   "author": "",
