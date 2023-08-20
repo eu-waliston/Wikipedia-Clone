@@ -14,7 +14,6 @@ For Educational Purposes Only
     - Scss
     - React Router Dom
     - React Icons 
-    - Css
     - Styled Componets
     - Font Aweasome
 ### Backend 
@@ -24,10 +23,14 @@ For Educational Purposes Only
     - Helment 
     - MongoDB
     - Mongoose
+    - JWT
 
 ### Hospegadem
     - Vercel
-
+    - Veroku
+    
+### Cloud    
+    - AWS
 ### LINKS:
 
 FRONT (somente o front da aplicação que fora hospedato utilizando o Vercel)
