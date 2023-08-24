@@ -27,7 +27,7 @@ For Educational Purposes Only
 
 ### Hospegadem
     - Vercel
-    - Heroku
+    - Render API
     - AWS
 
 ### LINKS:
