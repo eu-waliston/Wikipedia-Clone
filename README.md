@@ -29,6 +29,7 @@ For Educational Purposes Only
     - Vercel
     - Render API
     - AWS
+    - AWS S3
 
 ### LINKS:
 
