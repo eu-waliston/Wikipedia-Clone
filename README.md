@@ -14,7 +14,6 @@ For Educational Purposes Only
     - Scss
     - React Router Dom
     - React Icons 
-    - Styled Componets
     - Google Fonts
 ### Backend 
     - NodeJS
