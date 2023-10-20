@@ -15,6 +15,7 @@ For Educational Purposes Only
     - React Router Dom
     - React Icons 
     - Google Fonts
+    - Font Aweasome
 ### Backend 
     - NodeJS
     - Express
