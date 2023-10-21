@@ -16,7 +16,7 @@ For Educational Purposes Only
     - React Icons 
     - Google Fonts
     - Font Aweasome
-    
+    - JS
 ### Backend 
     - NodeJS
     - Express
